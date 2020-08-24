@@ -1,0 +1,32 @@
+{
+	"name": "My theme (koha13)",
+	"displayName": "My theme (koha13)",
+	"description": "My onw theme",
+	"version": "0.0.1",
+	"publisher": "Koha13",
+	"engines": {
+		"vscode": "^1.77.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "koha13: Intellij light theme",
+				"uiTheme": "vs",
+				"path": "./themes/Intellij light theme.json"
+			},
+			{
+				"label": "koha13: Gruv simple theme (building)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Gruv simple theme.json"
+			},
+			{
+				"label": "koha13: Gruv dark theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Gruv dark theme.json"
+			}
+		]
+	}
+}
