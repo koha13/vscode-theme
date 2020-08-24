@@ -19,14 +19,16 @@
 		"activityBar.background": "#f2f2f2",
 		"activityBar.foreground": "#000000",
 		"activityBar.border": "#bcbcbc",
-		"statusBar.background": "#f2f2f2",
+		"statusBar.background": "#80e895",
 		"statusBar.foreground": "#000000",
 		"statusBar.border": "#c0c0c0",
 		"gitDecoration.modifiedResourceForeground": "#8db0dc",
 		"gitDecoration.deletedResourceForeground": "#cc241d",
 		"gitDecoration.untrackedResourceForeground": "#c5e650",
 		"gitDecoration.ignoredResourceForeground": "#7c6f64",
-		"gitDecoration.conflictingResourceForeground": "#b16286"
+		"gitDecoration.conflictingResourceForeground": "#b16286",
+		"terminal.background": "#ffffff",
+		"terminal.foreground": "#000000"
 	},
 	"tokenColors": [
 		{
@@ -82,10 +84,33 @@
 		},
 		{
 			"name": "Keywords",
-			"scope": ["keyword", "storage"],
+			"scope": "keyword",
 			"settings": {
 				"foreground": "#000088",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"foreground": "#000088"
+			}
+		},
+		{
+			"name": "Storage modifier",
+			"scope": ["storage.modifier", "storage.modifier"],
+			"settings": {
+				"foreground": "#000088",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Storage modifier",
+			"scope": ["storage.modifier.import", "storage.modifier.package"],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
