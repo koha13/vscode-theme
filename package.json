@@ -4,6 +4,11 @@
 	"description": "My onw theme",
 	"version": "0.0.1",
 	"publisher": "Koha13",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/koha13/vscode-theme"
+	},
 	"engines": {
 		"vscode": "^1.77.0"
 	},

@@ -16,6 +16,7 @@
 		"editorLineNumber.foreground": "#c1c1c1",
 		"editor.lineHighlightBackground": "#fffae3",
 		"editor.selectionHighlightBackground": "#F6EBBC",
+		"editor.findMatchBackground": "#ffbe5c",
 		"activityBar.background": "#f2f2f2",
 		"activityBar.foreground": "#000000",
 		"activityBar.border": "#bcbcbc",
