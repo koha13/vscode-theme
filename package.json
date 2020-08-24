@@ -1,8 +1,8 @@
 {
-	"name": "Themee",
-	"displayName": "My theme (koha13)",
+	"name": "themee",
+	"displayName": "Themee",
 	"description": "Light theme base on Intellij light theme. Dark theme base on gruvbox",
-	"version": "0.0.1",
+	"version": "1.1.0",
 	"publisher": "Koha13",
 	"license": "MIT",
 	"repository": {
@@ -10,7 +10,7 @@
 		"url": "https://github.com/koha13/vscode-theme"
 	},
 	"engines": {
-		"vscode": "^1.77.0"
+		"vscode": "^1.0.0"
 	},
 	"categories": [
 		"Themes"
