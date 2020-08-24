@@ -21,7 +21,12 @@
 		"activityBar.border": "#bcbcbc",
 		"statusBar.background": "#f2f2f2",
 		"statusBar.foreground": "#000000",
-		"statusBar.border": "#c0c0c0"
+		"statusBar.border": "#c0c0c0",
+		"gitDecoration.modifiedResourceForeground": "#8db0dc",
+		"gitDecoration.deletedResourceForeground": "#cc241d",
+		"gitDecoration.untrackedResourceForeground": "#c5e650",
+		"gitDecoration.ignoredResourceForeground": "#7c6f64",
+		"gitDecoration.conflictingResourceForeground": "#b16286"
 	},
 	"tokenColors": [
 		{
@@ -145,7 +150,6 @@
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				// "foreground": "#008800",
 				"foreground": "#095e09",
 				"fontStyle": "bold"
 			}
@@ -221,7 +225,6 @@
 			"name": "HTML: Attribute Names",
 			"scope": ["meta.tag entity.other.attribute-name", "entity.other.attribute-name.html"],
 			"settings": {
-				// "fontStyle": "italic",
 				"foreground": "#0058D7"
 			}
 		},
@@ -247,7 +250,6 @@
 			}
 		},
 
-		// CSS
 		{
 			"name": "CSS: Selectors",
 			"scope": [
@@ -292,7 +294,6 @@
 				"fontStyle": ""
 			}
 		},
-		// CSS end
 
 		{
 			"name": "Markup: Changed",
@@ -435,7 +436,6 @@
 				"foreground": "#434343"
 			}
 		},
-		// javscript
 		{
 			"name": "Object keys, TS grammar specific",
 			"scope": ["meta.object-literal.key", "meta.object-literal.key entity.name.function"],
@@ -464,7 +464,6 @@
 			"name": "variable.other.object.property.js",
 			"scope": "variable.other.object.property.js",
 			"settings": {
-				// "fontStyle": "bold"
 				"fontStyle": ""
 			}
 		},
@@ -472,7 +471,6 @@
 			"name": "variable.other.readwrite.js",
 			"scope": "variable.other.readwrite.js",
 			"settings": {
-				// "fontStyle": "bold"
 				"fontStyle": ""
 			}
 		},
@@ -480,7 +478,6 @@
 			"name": "variable.other.property.js",
 			"scope": "variable.other.property.js",
 			"settings": {
-				// "fontStyle": "bold"
 				"fontStyle": ""
 			}
 		},
@@ -512,7 +509,6 @@
 			],
 			"settings": {
 				"foreground": "#862F95",
-				// "fontStyle": "bold"
 				"fontStyle": ""
 			}
 		},
@@ -579,7 +575,6 @@
 				"fontStyle": "bold"
 			}
 		},
-		// Php
 		{
 			"name": "punctuation.section.embedded.begin.php",
 			"scope": "punctuation.section.embedded.begin.php",
