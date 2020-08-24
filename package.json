@@ -33,8 +33,5 @@
 				"path": "./themes/Gruv dark theme.json"
 			}
 		]
-	},
-	"dependencies": {
-		"vsce": "^1.78.0"
 	}
 }
