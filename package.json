@@ -1,7 +1,7 @@
 {
-	"name": "My theme (koha13)",
+	"name": "Themee",
 	"displayName": "My theme (koha13)",
-	"description": "My onw theme",
+	"description": "Light theme base on Intellij light theme. Dark theme base on gruvbox",
 	"version": "0.0.1",
 	"publisher": "Koha13",
 	"license": "MIT",
@@ -33,5 +33,8 @@
 				"path": "./themes/Gruv dark theme.json"
 			}
 		]
+	},
+	"dependencies": {
+		"vsce": "^1.78.0"
 	}
 }
