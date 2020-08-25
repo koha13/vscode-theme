@@ -6,30 +6,33 @@
 		"editor.foreground": "#000000",
 		"tab.inactiveBackground": "#d4d4d4",
 		"tab.inactiveForeground": "#333333",
-		"tab.activeBorder": "#c0c0c0",
-		"tab.border": "#c0c0c0",
+		"tab.activeBorder": "#000000",
+		"tab.border": "#000000",
 		"sideBar.background": "#ffffff",
 		"sideBar.foreground": "#000000",
-		"sideBar.border": "#c0c0c0",
+		"sideBar.border": "#000000",
 		"sideBarSectionHeader.background": "#d4d4d4",
 		"editorGutter.background": "#f0f0f0",
-		"editorLineNumber.foreground": "#c1c1c1",
+		"editorLineNumber.foreground": "#c2c2c2",
 		"editor.lineHighlightBackground": "#fffae3",
 		"editor.selectionHighlightBackground": "#F6EBBC",
 		"editor.findMatchBackground": "#ffbe5c",
 		"activityBar.background": "#f2f2f2",
 		"activityBar.foreground": "#000000",
-		"activityBar.border": "#bcbcbc",
-		"statusBar.background": "#80e895",
+		"activityBar.border": "#000000",
+		"statusBar.background": "#f2f2f2",
 		"statusBar.foreground": "#000000",
-		"statusBar.border": "#c0c0c0",
+		"statusBar.border": "#000000",
 		"gitDecoration.modifiedResourceForeground": "#183185",
 		"gitDecoration.deletedResourceForeground": "#cc241d",
 		"gitDecoration.untrackedResourceForeground": "#056333",
 		"gitDecoration.ignoredResourceForeground": "#7c6f64",
 		"gitDecoration.conflictingResourceForeground": "#b16286",
 		"terminal.background": "#ffffff",
-		"terminal.foreground": "#000000"
+		"terminal.foreground": "#000000",
+		"notification.foreground": "#00000",
+		"debugToolBar.background": "#FFFFFF",
+		"debugToolBar.foreground": "#000000"
 	},
 	"tokenColors": [
 		{
@@ -99,6 +102,17 @@
 			}
 		},
 		{
+			"name": "storage annotation",
+			"scope": [
+				"storage.type.annotation",
+				"storage.type.annotation.java",
+				"punctuation.definition.annotation"
+			],
+			"settings": {
+				"foreground": "#9E880D"
+			}
+		},
+		{
 			"name": "Storage modifier",
 			"scope": ["storage.modifier", "storage.modifier"],
 			"settings": {
@@ -138,6 +152,14 @@
 			}
 		},
 		{
+			"name": "Variables2",
+			"scope": ["variable.other.object.property.java"],
+			"settings": {
+				"foreground": "#880088",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Functions",
 			"scope": ["entity.name.function", "support.function"],
 			"settings": {
@@ -163,13 +185,6 @@
 			"scope": "entity.name.section",
 			"settings": {
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Numbers, Characters",
-			"scope": ["constant.numeric", "constant.character", "constant"],
-			"settings": {
-				"foreground": "#AB6526"
 			}
 		},
 		{
@@ -205,7 +220,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#4d4d4d"
 			}
 		},
 		{
@@ -476,35 +491,6 @@
 			"settings": {
 				"foreground": "#0042B6",
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "variable other object js",
-			"scope": "variable.other.object.js",
-			"settings": {
-				"foreground": "#008D90",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "variable.other.object.property.js",
-			"scope": "variable.other.object.property.js",
-			"settings": {
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "variable.other.readwrite.js",
-			"scope": "variable.other.readwrite.js",
-			"settings": {
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "variable.other.property.js",
-			"scope": "variable.other.property.js",
-			"settings": {
-				"fontStyle": ""
 			}
 		},
 		{

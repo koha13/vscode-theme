@@ -33,5 +33,10 @@
 				"path": "./themes/Gruv dark theme.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "3c79d161-7d02-455f-af1f-95748f215b91",
+		"publisherDisplayName": "Koha13",
+		"publisherId": "2b5218ac-d8bb-48aa-9b3b-51e0b4c68bda"
 	}
 }
