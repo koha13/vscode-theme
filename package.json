@@ -2,7 +2,7 @@
 	"name": "themee",
 	"displayName": "Themee",
 	"description": "Light theme base on Intellij light theme. Dark theme base on gruvbox",
-	"version": "1.5.0",
+	"version": "1.5.1",
 	"publisher": "Koha13",
 	"license": "MIT",
 	"repository": {
@@ -30,7 +30,7 @@
 			{
 				"label": "koha13: Minimal Gruvbox",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Mininal Gruvbox.json"
+				"path": "./themes/Minimal Gruvbox.json"
 			}
 		]
 	},
