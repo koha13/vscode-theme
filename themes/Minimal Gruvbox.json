@@ -285,16 +285,16 @@
 				"foreground": "#fe8019"
 			}
 		},
-		{
-			"name": "Variables",
-			"scope": ["variable", "support.variable"],
-			"settings": {
-				"foreground": "#fe8019"
-			}
-		},
+		// {
+		// 	"name": "Variables",
+		// 	"scope": ["variable", "support.variable"],
+		// 	"settings": {
+		// 		"foreground": "#fe8019"
+		// 	}
+		// },
 		{
 			"name": "Variables2",
-			"scope": ["variable.other.object.property.java"],
+			"scope": ["variable.language.this.java"],
 			"settings": {
 				"foreground": "#fe8019",
 				"fontStyle": "italic"
@@ -325,7 +325,7 @@
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#3cf057"
+				"foreground": "#6d7a16"
 			}
 		},
 		{
