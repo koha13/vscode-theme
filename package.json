@@ -2,7 +2,7 @@
 	"name": "themee",
 	"displayName": "Themee",
 	"description": "Light theme base on Intellij light theme. Dark theme base on gruvbox",
-	"version": "1.5.2",
+	"version": "1.5.3",
 	"publisher": "Koha13",
 	"license": "MIT",
 	"repository": {
